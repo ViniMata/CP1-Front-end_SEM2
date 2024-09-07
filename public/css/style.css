@@ -7,11 +7,11 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.container{
+.container-photos{
     width: 80%;
     margin: 0 auto;
     padding-top: 100px; 
-
+    
 }
 
 
@@ -77,4 +77,11 @@ body {
 
 .img5 img{
     border-bottom-right-radius: 15px;
+}
+.container-info{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    
 }
