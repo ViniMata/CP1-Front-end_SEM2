@@ -143,3 +143,107 @@ main {
 }
 
 /* Area Titulo ,Anfitriao e Qualidades: Fim */
+
+/* Diaria: Inicio */
+
+.diaria{
+    border: 1px solid rgb(221, 221, 221);
+    width: 27%;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px;
+}
+.valor{
+    display: flex;
+}
+.valor p{
+    margin-left: 5px;
+    align-self: flex-end;
+}
+.check-in-out{
+    border: 1px solid rgb(162, 161, 161);
+    border-radius: 12px;
+}
+.check-in-out{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7px;
+    width: 100%;
+}
+.campo1{
+    display: flex;
+}
+.check-in{
+    border-right: 1px solid rgb(162, 161, 161);
+}
+.linha {
+    grid-column: span 2;
+    background-color: rgb(162, 161, 161);
+    height: 1px; 
+    margin: 0px 0;
+  }
+.check-in-out p{
+    top: 12px ;
+    left: 12px ;
+    right: 12px ;
+    margin: 0 30px ;
+    padding: 0px ;
+    pointer-events: none ;
+    font-size: 0.625rem ;
+    line-height: 0.75rem ;
+    color: rgb(34, 34, 34) ;
+    text-transform: uppercase ;
+    font-weight: 700 ;
+    max-width: 100% ;
+    overflow: hidden ;
+    text-overflow: ellipsis ;
+    white-space: nowrap ;
+}
+.hospedes{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(162, 161, 161);
+    padding: 5px 5px;
+    
+}
+.hospedes p{
+    margin: 1px 0;
+}
+.hospedes-txt txt-low{
+    text-transform: lowercase;
+}
+
+.reservar button{
+    margin-top: 15px;
+    background-color: #ff5f6d;
+    border: none; 
+    border-radius: 10px; 
+    padding: 10px 88px; 
+    font-size: 16px;
+    text-align: center; 
+    cursor: pointer; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease; 
+}
+.reservar button:hover {
+    background: linear-gradient(90deg, #ff5f6d, #ff7f50);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+.reservar p{
+    margin: 8px 34px 0px;
+    padding: 2px 2px;
+    font-size: 12px;
+}
+
+.taxa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.taxa p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.taxa.imposto{
+    margin-top: 20px;
+}
