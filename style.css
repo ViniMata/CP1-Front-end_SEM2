@@ -90,6 +90,10 @@ main {
     margin: 3% 0;
 }
 
+.info {
+    width: 67%;
+}
+
 /* Container: Fim */
 
 /* Area Titulo, Anfitriao e Qualidades: Inicio */
@@ -121,7 +125,7 @@ main {
 
 .qualidades {
     padding: 7% 0;
-    margin: 0 -22% 0 0;
+    margin: 0 8% 0 0;
     border-bottom: 1px solid rgb(221, 221, 221);
     border-top: 1px solid rgb(221, 221, 221);
     display: flex;
