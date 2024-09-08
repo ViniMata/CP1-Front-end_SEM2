@@ -12,7 +12,7 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    margin: 2% 19%;
+    margin: 2% 15%;
 }
 
 /* Fotos e Titulo: Inicio*/
@@ -180,6 +180,7 @@ main {
 .campo1{
     padding: 8px 0;
     display: flex;
+    justify-content: center;
 }
 .check-in{
     border-right: 1px solid rgb(162, 161, 161);
@@ -191,22 +192,13 @@ main {
     height: 1px; 
     margin: 0px 0;
   }
-.check-in-out p{
-    top: 12px ;
-    left: 12px ;
-    right: 12px ;
+.check-in-out p {
     margin: 0 30px ;
     padding: 0px ;
-    pointer-events: none ;
     font-size: 0.625rem ;
-    line-height: 0.75rem ;
     color: rgb(34, 34, 34) ;
-    text-transform: uppercase ;
     font-weight: 700 ;
     max-width: 100% ;
-    overflow: hidden ;
-    text-overflow: ellipsis ;
-    white-space: nowrap ;
 }
 .hospedes{
     display: flex;
@@ -232,7 +224,7 @@ main {
     text-align: center; 
     cursor: pointer; 
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    transition: background 0.3s ease; 
+    transition: 1.5s ease; 
     width: 100%;
 }
 .reservar button:hover {
@@ -265,6 +257,7 @@ main {
     text-decoration: none;
     font-weight: bold;
 }
+/* Diaria: fim */
 
 /* Descricao: Inicio */
 
@@ -287,6 +280,54 @@ main {
 .mostrar-mais a {
     color: black;
     margin-right: 5px;
+}
+
+/* Comodidades: inicio */
+.comodidades{
+    padding: 3% 0;
+    border-top: 1px solid rgb(221, 221, 221);;
+    width: 62%;
+}
+.comodidades h2{
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.lista-comodidades{
+    width: 67%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.unidade-comodidade{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    gap: 15px;
+    margin-bottom: 14px;
+}
+.unidade-comodidade p{
+    margin-right: 15px;
+}
+.unidade-comodidade.um {
+    text-decoration: line-through;
+}
+.comodidades button{
+    margin-top: 35px;
+    padding: 15px 20px; 
+    border: 1px solid #000; 
+    border-radius: 8px; 
+    background-color: white;
+    color: #000; 
+    font-size: 16px; 
+    font-family: Arial, sans-serif; 
+    cursor: pointer; 
+    text-align: center; 
+    display: inline-block; 
+    font-weight: 600;
+}
+.comodidades button:hover{
+    background-color: #f0f0f0;
+    border-color: #555;
     font-weight: bold;
 }
 
@@ -295,7 +336,7 @@ main {
 /* Comentarios: Inicio */
 
 .comentarios {
-    border-top: 1px solid rgb(221, 221, 221);;
+    border-top: 1px solid rgb(221, 221, 221);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(558px, 1fr));
     gap: 20px;
