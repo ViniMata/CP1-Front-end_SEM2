@@ -251,3 +251,13 @@ main {
 .taxa.imposto{
     margin-top: 20px;
 }
+
+/* Descricao: Inicio */
+
+.descricao-anuncio {
+    width: 62%;
+}
+
+.descricao-anuncio p {
+    line-height: 1.6;
+}
