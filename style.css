@@ -113,7 +113,7 @@ main {
 .anfitriao {
     margin: 5% 25% 0 0;
     display: flex;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
     align-items: center;
 }
 
@@ -289,3 +289,41 @@ main {
     margin-right: 5px;
     font-weight: bold;
 }
+
+/* Descrico: Fim */
+
+/* Comentarios: Inicio */
+
+.comentarios {
+    border-top: 1px solid rgb(221, 221, 221);;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(558px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.comentario {
+    padding-bottom: 10px;
+}
+
+.img-perfil-user {
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+}
+
+
+.tempo-de-estadia {
+    display: flex;
+    flex-direction: row;
+}
+
+.tempo-de-estadia {
+    padding-bottom: 3%;
+}
+
+.tempo-mes {
+    font-size: 14px;
+}
+
