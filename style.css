@@ -1,10 +1,12 @@
+@import url(/public/css/fonts.css);
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 main {
@@ -87,7 +89,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 3% 0;
+    margin: 3% 0 0 0;
 }
 
 .info {
@@ -267,8 +269,21 @@ main {
 
 .descricao-anuncio {
     width: 62%;
+    padding: 4% 0;
 }
 
 .descricao-anuncio p {
     line-height: 1.6;
+    margin-bottom: 19px;
+}
+
+.mostrar-mais {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mostrar-mais a {
+    color: black;
+    margin-right: 5px;
 }
