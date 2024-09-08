@@ -250,11 +250,17 @@ main {
     justify-content: space-between;
 }
 .taxa p{
+    text-decoration: underline;
     margin-top: 10px;
     margin-bottom: 20px;
 }
-.taxa.imposto{
+.valores p{
+    text-decoration: none;
+}
+.taxa.imposto p{
     margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /* Descricao: Inicio */
