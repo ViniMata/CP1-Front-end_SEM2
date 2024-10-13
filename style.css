@@ -461,7 +461,7 @@ main {
     .diaria-mobile p {
         font-size: 16px;           
         color: rgb(0, 0, 0);            
-        margin: 0;                
+        margin-right: 130px;                
     }
     
     .diaria-mobile button {
